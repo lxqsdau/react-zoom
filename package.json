@@ -1,0 +1,44 @@
+{
+  "name": "lxq-react-zoom",
+  "title": "lxq-react-zoom",
+  "version": "1.0.8",
+  "description": "react图片缩放组件",
+  "homepage": "",
+  "author": "刘玄清",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "clean": "rm -rf lib && mkdir lib",
+    "build": "npm run clean && babel src --out-dir lib --ignore \"**/*.test.js\""
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxqsdau/react-zoom.git"
+  },
+  "keywords": [
+    "react-zoom",
+    "zoom",
+    "imgZoom"
+  ],
+  "dependencies": {
+    "lxq-react-zoom": "^1.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.4"
+  }
+}
