@@ -1,7 +1,7 @@
-# react图片缩放组件 1.0.0
+# react图片缩放组件
 
 
-
+### npm i lxq-react-zoom -S
 ```jsx
 import React from 'react';
 import ZoomImg from 'lxq-react-zoom';
